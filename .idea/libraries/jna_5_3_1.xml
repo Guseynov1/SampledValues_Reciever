@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="jna-5.3.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../jna-5.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pcap4j-core-2.0.0-alpha.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pcap4j-sample-2.0.0-alpha.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../slf4j-api-1.7.26.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

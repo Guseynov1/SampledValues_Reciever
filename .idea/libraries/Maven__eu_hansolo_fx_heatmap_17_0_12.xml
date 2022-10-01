@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: eu.hansolo.fx:heatmap:17.0.12">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/eu/hansolo/fx/heatmap/17.0.12/heatmap-17.0.12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/eu/hansolo/fx/heatmap/17.0.12/heatmap-17.0.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/eu/hansolo/fx/heatmap/17.0.12/heatmap-17.0.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

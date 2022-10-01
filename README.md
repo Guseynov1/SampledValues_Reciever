@@ -1,0 +1,1 @@
+**A Sampled Values receiver has been developed according to the IEC 61850 9-2LE standard using MySQL and JavaFX**

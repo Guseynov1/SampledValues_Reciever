@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="pcap4j">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../SampledValues/lib/pcap4j" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../SampledValues/lib/pcap4j/pcap4j-core/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../SampledValues/lib/pcap4j/pcap4j-core/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../SampledValues/lib/pcap4j/pcap4j-packetfactory-propertiesbased/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../SampledValues/lib/pcap4j/pcap4j-packetfactory-static/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../SampledValues/lib/pcap4j/pcap4j-packetfactory-static/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../SampledValues/lib/pcap4j/pcap4j-packettest/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../SampledValues/lib/pcap4j/pcap4j-sample/src/main/java" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../SampledValues/lib/pcap4j" recursive="false" />
+  </library>
+</component>

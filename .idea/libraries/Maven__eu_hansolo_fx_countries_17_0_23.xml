@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: eu.hansolo.fx:countries:17.0.23">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/eu/hansolo/fx/countries/17.0.23/countries-17.0.23.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/eu/hansolo/fx/countries/17.0.23/countries-17.0.23-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/eu/hansolo/fx/countries/17.0.23/countries-17.0.23-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: eu.hansolo:toolbox:17.0.26">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/eu/hansolo/toolbox/17.0.26/toolbox-17.0.26.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/eu/hansolo/toolbox/17.0.26/toolbox-17.0.26-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/eu/hansolo/toolbox/17.0.26/toolbox-17.0.26-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
