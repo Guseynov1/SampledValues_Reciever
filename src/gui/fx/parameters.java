@@ -12,6 +12,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.layout.GridPane;
 import javafx.util.Callback;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -20,6 +21,7 @@ import java.sql.ResultSet;
 import java.util.Scanner;
 
 @Data
+@NoArgsConstructor
 public class parameters {
 
     @FXML
@@ -42,9 +44,6 @@ public class parameters {
     private Label smpCntLabel;
 
     private gui gui;
-
-    public parameters(){
-    }
 
     GridPane gridPane = new GridPane();
 

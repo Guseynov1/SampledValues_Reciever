@@ -22,6 +22,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeoutException;
 
@@ -45,22 +46,17 @@ public class ReadPacket {
     private static final int COUNT = 4000;
     private static final String PCAP_FILE_KEY = ReadPacket.class.getName() + ".pcapFile";
     private static final String PCAP_FILE = System.getProperty(PCAP_FILE_KEY, "tests/pcapMissed.pcap");
-    static ArrayList<Integer> array = new ArrayList<>();
-    public static AnalogValue Ia = new AnalogValue();
-    public static AnalogValue Ib = new AnalogValue();
-    public static AnalogValue Ic = new AnalogValue();
+    static List<Integer> array = new ArrayList<>();
+    public static AnalogValue Ia = new AnalogValue(), Ib = new AnalogValue(), Ic = new AnalogValue();
     public static AnalogValue I0 = new AnalogValue();
-    public static AnalogValue Ua = new AnalogValue();
-    public static AnalogValue Ub = new AnalogValue();
-    public static AnalogValue Uc = new AnalogValue();
+    public static AnalogValue Ua = new AnalogValue(), Ub = new AnalogValue(), Uc = new AnalogValue();
     public static AnalogValue U0 = new AnalogValue();
 
 
     public static byte[] getRawData() throws PcapNativeException {
-        PcapHandle handle;
         byte[] rawData = null;
         try {
-            handle = Pcaps.openOffline(PCAP_FILE);
+            PcapHandle handle = Pcaps.openOffline(PCAP_FILE);
 
             NHMI nhmi = new NHMI();
             nhmi.addSignals(new NHMISignal("Ia", Ia.getF()));
